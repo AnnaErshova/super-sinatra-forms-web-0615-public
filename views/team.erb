@@ -1,7 +1,19 @@
-<=%@team[:name]%>
+<h1>We are: <%= @team[:name] %></h1>
+</br>
+<h1>Team Motto: <%= @team[:motto] %></h1>
+</br>
 
-Team Motto: 
+<h2>Hero1</h2>
+<h3>Hero Name: <%= @team[:members][:super1][:name] %></h3>
+<h3>Hero Power: <%= @team[:members][:super1][:power] %></h3>
+<h3>Hero Bio: <%= @team[:members][:super1][:bio] %></h3>
 
-Hero Name: 
-Hero Power:
-Hero Bio:
+<h2>Hero2</h2>
+<h3>Hero Name: <%= @team[:members][:super2][:name] %></h3>
+<h3>Hero Power: <%= @team[:members][:super2][:power] %></h3>
+<h3>Hero Bio: <%= @team[:members][:super2][:bio] %></h3>
+
+<h2>Hero3</h2>
+<h3>Hero Name: <%= @team[:members][:super3][:name] %></h3>
+<h3>Hero Power: <%= @team[:members][:super3][:power] %></h3>
+<h3>Hero Bio: <%= @team[:members][:super3][:bio] %></h3>
